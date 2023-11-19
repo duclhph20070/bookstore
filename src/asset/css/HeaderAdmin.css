@@ -1,0 +1,47 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 220px auto;
+}
+.layout-content-top {
+  background-color: #ffffff;
+  height: 73px;
+  border-bottom: 1px solid #cccccc;
+  margin: 0px 20px;
+}
+.layout-content-between {
+  background-color: #f5f5f5;
+  margin: 0px 20px;
+  padding: 20px;
+}
+.menu {
+  border-top: 1px solid #cccccc;
+}
+.layout-content-between-box {
+  background-color: #ffffff;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.ant-modal-footer button:last-child {
+  background-color: #1cc0a0 !important;
+  color: #ffffff !important;
+}
+.ant-modal-footer button:first-child:hover {
+  border: 1px solid #1cc0a0 !important;
+  color: #1cc0a0 !important;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-table-wrapper {
+  padding: 20px 10px;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-pagination
+  .ant-pagination-item-active {
+  border-color: #1cc0a0 !important;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-pagination
+  .ant-pagination-item-active
+  a {
+  color: #1cc0a0 !important;
+}
